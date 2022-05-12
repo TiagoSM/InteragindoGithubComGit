@@ -19,7 +19,7 @@ Criado com o objetivo de mostrar comandos básicos para operar o Git Bash criand
 ## Adicionando o repositório a sua máquina local e modificando seus itens
 - Abra seu Git Bash, deixe-o no diretório que desejar.
 - Coloque o comando "git clone https://github.com/NomeDeUsuário/NomeDoRepositório.git".
-- É só acessa-lo no diretório escolhido.
+- É só acessá-lo no diretório escolhido.
 - Quando terminar de modificar use o comando "git add *" para atualizar o versionamento local.
 - Logo em seguida "git commit -m "Seu comentário" " para comentar o que foi modificado.
 - Para enviar para o github.com digite o comando "git push origin main". (o termo "main" é na verdade o nome do ramo principal, que geralmente é main ou master, mas é personalizável!)
