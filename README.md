@@ -16,6 +16,10 @@ Criado com o objetivo de mostrar comandos básicos para operar o Git Bash criand
 - "Choose a license" pode a inserir a licença que mais lhe agrada. (Opcional, pois se não quiser é só deixar do jeito que está!)
 
 
+## Estrutura inicial
+- Abra a pasta com o comando cd e endereço do arquivo
+-
+
 ## Adicionando o repositório a sua máquina local e modificando seus itens
 - Abra seu Git Bash, deixe-o no diretório que desejar.
 - Coloque o comando "git clone https://github.com/NomeDeUsuário/NomeDoRepositório.git".
