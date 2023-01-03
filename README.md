@@ -11,7 +11,7 @@ Criado com o objetivo de mostrar comandos básicos para operar o Git Bash criand
 - Digite: (Para inicializar o git na pasta.)      
 
         git init
-- Digite: (Para adicionar um arquivo a uma parte de espera para depois ser empurrado ao repositório, porém se for todos os arquivos de dentro da pasta basta usar o * no lugar do "Nome do arquivo". Exemplo: git add * ) 
+- Digite: (Para adicionar um arquivo a uma parte de espera para depois ser empurrado ao repositório, porém se for todos os arquivos de dentro da pasta basta usar o . no lugar do "Nome do arquivo". Exemplo: git add . ) 
 
         git add "Nome do arquivo"
 - Digite: (Use esse comando sempre após um comando para evitar uma cascata de erros.)  
@@ -58,7 +58,7 @@ Criado com o objetivo de mostrar comandos básicos para operar o Git Bash criand
 - É só acessá-lo no diretório escolhido.
 - Digite:  (Após fazer as suas modificações e sempre use o git status para saber se há algum problema que têm que resolver!)
 
-      git add *
+      git add .
 - Digite:  
 
       git commit -m "Seu comentário"
@@ -77,7 +77,7 @@ Um colega ou você adicionou uma nova versão, enquanto que você estava modific
 - Edite novamente o arquivo se aparecer um conflito na fusão.
 - Digite o comando:  
 
-      git add *
+      git add .
 - Digite o comando:   
 
       git commit -m "Seu comentário"
@@ -93,7 +93,7 @@ Um colega ou você adicionou uma nova versão, enquanto que você estava modific
 - CTRL+L = Limpa o terminal do Git Bash.
 - TAB = Autocompletar termo digitado.
 - git clone https://github.com/NomeDeUsuário/NomeDoRepositório.git = Faz uma cópia do repositório no github.com para o seu computador local.
-- git add * = Usado para adicionar arquivos novos e modificados do diretório atual.
+- git add . = Usado para adicionar arquivos novos e modificados do diretório atual.
 - git commit -m "" = Permite adicionar um comentário entre as aspas, sobre a modificação realizada.
 - git status = Mostra quais alterações não foram ou foram preparadas e quais arquivos não estão sendo monitorados pelo Git.
 - git pull -u origin main = Atualiza a sua versão local do repositório para a mais nova existente. 
