@@ -22,7 +22,7 @@ Criado com o objetivo de mostrar comandos básicos para operar o Git Bash criand
         git commit -m "Primeiro commit"
 - Digite: (Caso queira mudar o nome do seu branch atual, geralmente é utilizado o nome main.)  
 
-        git branch -M "main"
+        git branch -M main
 
 
 ## Crie um repositório
@@ -44,8 +44,8 @@ Criado com o objetivo de mostrar comandos básicos para operar o Git Bash criand
       git remote add origin https://github.com/NomeDoUsuário/NomeDoRepositório.git
 - Digite:  
 
-      git branch -M "main"
-- Digite:  
+      git branch -M main
+- Digite (Depois de usar esse comando pela primeira vez, só é necessário utilizar o comando "git push"):
 
       git push -u origin main
       
