@@ -71,7 +71,7 @@ Criado com o objetivo de mostrar comandos básicos para operar o Git Bash criand
 ## Possível problema de conflito
 Um colega ou você adicionou uma nova versão, enquanto que você estava modificando a versão antiga no seu computador local, na hora de você empurrar a sua versão para o repositório, aparece um erro que não permite este ato. Solução: 
 
-- Digite o comando:  
+- Digite o comando (Após digitar esse comando pela primeira vez, só é necessário utilizar o comando "git pull"):  
 
       git pull origin main
 - Edite novamente o arquivo se aparecer um conflito na fusão.
